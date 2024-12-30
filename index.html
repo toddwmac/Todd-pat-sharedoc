@@ -18,12 +18,31 @@
             <button id="save-button" class="bg-green-500 text-white px-4 py-2 rounded mr-2">Save</button>
             <button id="detonate-button" class="bg-red-500 text-white px-4 py-2 rounded">Detonate</button>
         </div>
-        <p class="mb-4 text-gray-600">Directions:<br>
-        This is a one page note file, not a set of threaded messages. :)<br>
-        Opening or refreshing the page will pull the most current version from the servers<br>
-        Save will save whatever version you have typed (there is only one saved version)<br>
-        Detonate will nuke the whole doc<br>
-        Remember,
+        <p class="mb-4 text-gray-600"><strong>Directions:</strong><br>
+        This is a one page note file, not a set of threaded messages.<br>
+        Opening or refreshing the page will pull the most current version from the servers.<br>
+        SAVE will save whatever version you have typed (there is only one saved version)<br>
+        DETONATE will nuke the whole doc<br>
+        Remember, this is a doc not a thread.<br>
+        <p>&nbsp;</p>
+        <p><strong>The Build Process</strong>:</p>
+        <ol>
+            <li>Push video from a developers talk about a something called Y-Sweet (a new a synch dev framework) into NotebookLM &nbsp;<strong>(2 min)</strong></li>
+            <li>Have Notebook LM create a study guide and summary doc &nbsp;<strong>(2 min)</strong></li>
+            <li>Pump those into Anthropic's dev workspace prompt builder tool (<strong>2 min)</strong></li>
+            <li>Take that prompt and ask ChatGPT to improve the prompt <strong>(2 min)</strong></li>
+            <li>Pump that into Netlify's Custom GPT for building sites <strong>(30 min)</strong></li>
+            <li>Manually config database server (just create a table requested during the conversation above while it walks me through it)</li>
+            <li>Cycle with that custom GPT to get the app looking like I wanted it to:<strong>(20 min)</strong></li>
+        </ol>
+        <ul>
+            <li>- add a border around the edit box</li>
+            <li>- add the "Click inside..." text</li>
+            <li>- add detonate</li>
+            <li>- tell it to be sure to save the doc on the server, not locally</li>
+            <li>- click deploy to the server<br>&nbsp;</li>
+        </ul>
+
     </div>
     <script src="script.js" type="module"></script>
 </body>
