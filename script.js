@@ -15,7 +15,7 @@ const textarea = document.getElementById('editor');
 const saveButton = document.getElementById('save-button');
 const detonateButton = document.getElementById('detonate-button');
 
-// Sync textarea with Yjs text
+// Sync the textarea with Yjs text
 textarea.value = text.toString();
 
 text.observe(() => {
